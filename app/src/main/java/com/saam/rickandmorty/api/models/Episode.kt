@@ -2,7 +2,6 @@ package com.saam.rickandmorty.api.models
 
 import se.ansman.kotshi.JsonSerializable
 
-
 @JsonSerializable
 data class Episode(
     val id: Int,

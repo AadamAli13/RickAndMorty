@@ -13,7 +13,7 @@ data class Character(
     val origin: Origin,
     val location: BasicLocation,
     val image: String,
-    val episode: List<String>,
+    val episodes: List<String>,
     val url: String,
     val created: String
 )
