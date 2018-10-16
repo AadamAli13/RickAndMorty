@@ -10,5 +10,5 @@ interface CharactersService {
     fun getCharacters(@Query("page") pageNum: Int?)
 
     @GET("character/{id}")
-    fun getSingleCharacter(@Path("id") characterId: Int)
+    fun getCharacter(@Path("id") characterId: Int)
 }
